@@ -1,0 +1,84 @@
+# ==========================================
+# Sistemas Operativos
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Entornos de Desarrollo (IDEs)
+# ==========================================
+
+### VS Code ###
+.vscode/*
+# Si quieres compartir la configuración de depuración o tareas recomendadas con tu equipo,
+# puedes desmarcar (quitar el '#') de las siguientes líneas:
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+*.code-workspace
+.history/
+
+### IntelliJ IDEA (WebStorm, PyCharm, PhpStorm, etc.) ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+gen/
+.navigation/
+
+### Otros editores comunes (Sublime, Vim) ###
+*.sublime-project
+*.sublime-workspace
+*~
+*.swp
+*.swo
+
+# ==========================================
+# Reportes y Pruebas (Playwright / Testing)
+# ==========================================
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ==========================================
+# Dependencias y Compilación (General)
+# ==========================================
+node_modules/
+/dist
+/build
+/out
+target/
+.npm
+.eslintcache
+.parcel-cache
+.cache/
+
+# ==========================================
+# Variables de Entorno y Seguridad (¡CRÍTICO!)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Logs y Temporales
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
