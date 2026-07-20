@@ -10,8 +10,28 @@ Solución técnica para la evaluación web utilizando **Playwright + TypeScript*
 
 ## Instalación de dependencias
 Ejecuta el siguiente comando en la raíz del proyecto para descargar todas las dependencias necesarias:
+### 1. Clonar el repositorio
+
+```bash
+git https://github.com/AndresLop91/reto-playwright-csb-2026.git
+```
+
+### 2. Ingresar al proyecto
+
+```bash
+cd playwright-api-challenge
+```
+
+### 3. Instalar dependencias
+
 ```bash
 npm install
+```
+
+### 4. Instalar los navegadores de Playwright
+
+```bash
+npx playwright install
 ```
 
 ---
